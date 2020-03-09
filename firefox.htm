@@ -1,0 +1,16 @@
+<!--
+Adds [Open With Firefox] menu in Internet Explorer
+© Ramesh Srinivasan - http://www.winhelponline.com/blog
+v1.0 May 19, 2010
+v1.1 Feb 11, 2016
+-->
+<HTML>
+<SCRIPT LANGUAGE="VBSCRIPT">
+	Set Wshshell = CreateObject("WScript.Shell")
+	set oParent=external.menuArguments
+	'sCmd = "firefox.exe -requestPending -osint -url" + " " + oParent.location.href
+	sCmd = "firefox.exe -url" + " " + oParent.document.URL
+	WshShell.run sCmd
+	Set WshShell = Nothing
+</SCRIPT>
+</HTML>
