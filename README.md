@@ -1,5 +1,7 @@
 # Impede IE
 
+## Warning, this software assumes that you have Windows sysadmin knowledge, this is not for noobs
+
 Just a quick thing I put together to Impede the functioning of Internet Explorer as much as possible for situations where it is not possible to remove it completely from **appwiz.cpl > Turn Windows features on or off > Internet Explorer 11** due to app compatibility issues but you still want to prevent the user from actually using Internet Explorer as much as possible.
 
 In case the user somehow finds their way back into Internet Explorer (perhaps there is a wayward shortcut, or a misbehaving app which doesn't respect the default browser choice), this will make the actual using of Internet Explorer practically useless so that the user will be forced back onto the right path of using Chrome or Firefox (or Edge, etc.) instead.
@@ -10,7 +12,7 @@ It's won't stop a determined user with technical knowledge on how to disable it,
 
 To install, 
 
-* Download from GitHub using **[Clone or Downlaod] -> Download ZIP**
+* Download from GitHub using **[Clone or Download] -> Download ZIP**
 * Right-click on the ZIP file in explorer and **Unblock** it (or you'll get security warnings every time you run any of the files inside  it) and then **Extract** it
 * Copy all the files to **C:\Program Files\Impede IE** (not PFx86, and don't remove  any spaces - some of the encoded reg entries is hardcoded to this path) 
 * Run **install-block_ie-PerMachine.reg** as an Admin
