@@ -1,6 +1,6 @@
 # Impede IE
 
-## Warning, this software assumes that you have Windows sysadmin knowledge, this is not for noobs
+## Warning, this software assumes that you have Windows sysadmin knowledge, this is not for noobs to set up, but it is for noobs to actually be using it
 
 Just a quick thing I put together to Impede the functioning of Internet Explorer as much as possible for situations where it is not possible to remove it completely from **appwiz.cpl > Turn Windows features on or off > Internet Explorer 11** due to app compatibility issues but you still want to prevent the user from actually using Internet Explorer as much as possible.
 
