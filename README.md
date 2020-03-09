@@ -10,6 +10,8 @@ It's won't stop a determined user with technical knowledge on how to disable it,
 
 To install, 
 
+* Download from GitHub using **[Clone or Downlaod] -> Download ZIP**
+* Right-click on the ZIP file in explorer and **Unblock** it (or you'll get security warnings every time you run any of the files inside  it) and then Extract
 * Copy all the files to **C:\Program Files\Impede IE** (not PFx86, and don't remove  any spaces - some of the encoded reg entries is hardcoded to this path) 
 * Run **install-block_ie-PerMachine.reg** as an Admin
 * Run **install-block_ie-PerUser.reg** for each user that you wish for Impede IE to apply to.
